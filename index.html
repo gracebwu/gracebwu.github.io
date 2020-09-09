@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Light Theme</title>
+<title>Grace Wu</title>
 <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
 <link href="new.css" rel="stylesheet" type="text/css">
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
@@ -27,7 +27,9 @@
       <ul>
         <li><a href="#hero">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
+		<li> <a href="#work">WORK</a></li>
         <li> <a href="#contact">CONTACT</a></li>
+		  <li> NOTE: Website still under construction</li>
       </ul>
     </nav>
   <section class="hero" id="hero">
@@ -47,44 +49,51 @@
 	<img class="me-img" src="img/me.jpg">
   </section>
   <!-- Parallax Section -->
-  <div class="banner">
+  <div class="banner", id="work">
     <h2 class="parallax">My Work</h2>
-	<p class="work-description">Here are a couple of my most recent experiences. For more detail, download my resume or visit my Linkedin.</p>
+	  <a href="img/grace-resume.pdf" class="button1" target="_blank">Resume ↗</a>
+	  <a href="https://www.linkedin.com/in/gracebwu/" class="button1" target="_blank">Linkedin ↗</a>
   </div>
   <!-- More Info Section -->
   <footer>
     <article class="footer_column">
+		<h3>UHN - Machine Learning Research Student</h3>
+		<h4>Sept 2020 - Present</h4>
 		<div class="card_container">
 		<img src="img/genetics1.jpg" alt="" class="cards"/>
-		  <div class="middle">
-    <h3>UHN - Machine Learning Research Student</h3>
-  </div>
 		</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+      <p>◦  Creating machine learning model to predict drug response from gene expression using cell line data.<br>
+◦  Developing R script to leverage text mining as a way to identify relevant biomarkers for feature selection.</p>
     </article>
     <article class="footer_column">
+		<h3>Cognitive Systems - Software Developer Co-op</h3>
+		<h4>May 2020 - Aug 2020</h4>
 		<div class="card_container">
 		<img src="img/csc1.jpg" alt="" class="cards"/>
-		  <div class="middle">
-    <h3>Cognitive Systems - Software Developer Co-op</h3>
-  </div>
 		</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+      <p>◦  Using C and Python with Pytest, developed a method to simulate a motion network with any number of connected<br>
+nodes for load testing of system features like memory and CPU. Automated testing protocol and data reporting.
+◦  Implemented a custom code profiler in Micropython.<br>
+◦  Built a data pipeline to transfer real-time motion data into AWS for query and analysis for more than 20,000
+devices. Used Logstash, S3, Lambda, Glue, Athena.
+</p>
     </article>
 	  <article class="footer_column">
+		  <h3>AUToronto - GUI & Navigation Member</h3>
+		  <h4>Sept 2019 - Present</h4>
 		<div class="card_container">
-		<img src="img/retina1.jpg" alt="" class="cards"/>
-		  <div class="middle">
-    <h3>King Mongkut University of Thonburi - Machine Learning Research Student</h3>
-  </div>
+		<img src="img/autoronto.png" alt="" class="cards"/>
 		</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+      <p>◦  Optimized GPS location query algorithm of an autonomous vehicle using Python and PostgreSQL <br>
+◦  Implemented motion planning algorithm in Python and C++ for the vehicle through creating a state lattice
+architecture and running graph searches<br>
+◦  Investigating the implementation of AVS for visualization</p>
     </article>
   </footer>
   <!-- Footer Section -->
   <section class="footer_banner" id="contact">
     <p class="hero_header">Say Hi!</p>
-    <div class="button">Contact</div>
+    <div class="button"><a href=mailto:graceb.wu@mail.utoronto.ca>Email</a></div>
   </section>
   <!-- Copyrights Section -->
   <div class="copyright">Grace Wu - 2020</strong></div>
