@@ -207,6 +207,12 @@ footer {
 	padding-top: 30px;
 	float: left;
 }
+
+@media (max-width: 1000px) {
+  .footer_column {
+    width: 100%;
+  }
+}
 footer .footer_column h3 {
     color: #595959;
     text-align: center;
