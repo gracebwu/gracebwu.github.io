@@ -2,6 +2,8 @@
 @import url("Inter_ExtraBold/stylesheet.css");
 @import url("Inter_Regular/stylesheet.css");
 @import url("Inter_Bold/stylesheet.css");
+@import url("Inter_ExtraLight/stylesheet.css");
+
 
 /* Body */
 
@@ -49,14 +51,15 @@ nav {
     color: #FF0004;
     position: fixed;
     background-color: #161616;
-    opacity: 0.5;
+    opacity: 0.7;
 	width: 100%;
 	
 
 }
 header nav ul {
-	list-style: none;
-	float: right;
+    list-style: none;
+    float: right;
+    background-size: auto auto;
 }
 nav ul li {
     float: left;
@@ -69,11 +72,13 @@ nav ul li {
     transition: all 0.3s linear;
 }
 ul li a {
-	color: #FFFFFF;
-	text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Inter-ExtraLight;
 }
 ul li:hover a {
-	color: #2C9AB7;
+    color: #2C9AB7;
+    font-family: Inter-Regular;
 }
 .hero_header {
 
@@ -93,10 +98,11 @@ ul li:hover a {
     padding-top: 20%;
     padding-bottom: 20%;
 	background-image: url("../img/8.4.jpg");
-    background-size: cover;
-    background-position: 0% 0%;
-    background-origin: padding-box;
-    background-attachment: fixed;}
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-origin: padding-box;}
 
 
 .light {
@@ -124,7 +130,7 @@ ul li:hover a {
     max-padding-bottom: 5%;
     color: #FEFEFE;
     font-size: medium;
-    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-family: Inter-ExtraLight;
 }
 .about {
     height: 100%;
@@ -180,6 +186,7 @@ ul li:hover a {
     padding-right: 100px;
 	   padding-left: 50px;
     padding-top: 5%;
+	padding-bottom: 2%;
     letter-spacing: 2px;
     margin-top: 0px;
     font-family: Inter-Bold;
@@ -204,10 +211,12 @@ footer {
 	padding-bottom: 35px;
 }
 .footer_column {
-	width: 33%;
-	text-align: center;
-	padding-top: 30px;
-	float: left;
+    width: 33%;
+    text-align: center;
+    padding-top: 30px;
+    float: left;
+    font-family: Inter-ExtraLight;
+    font-size: small;
 }
 
 @media (max-width: 320px) {
@@ -218,6 +227,8 @@ footer {
 footer .footer_column h3 {
     color: #595959;
     text-align: center;
+    font-family: Inter-Regular;
+    font-size: medium;
 }
 footer .footer_column p {
     color: #000000;
@@ -238,32 +249,35 @@ footer .footer_column p {
     margin-left: 20px;
     margin-right: 20px;
     color: #000000;
+    font-family: Inter-ExtraLight;
 }
 
 .button {
-	width: 200px;
-	margin-top: 40px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	text-align: center;
-	vertical-align: middle;
-	border-radius: 0px;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
-	transition: all 0.3s linear;
+    width: 200px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: all 0.3s linear;
+    font-family: Inter-ExtraLight;
 }
 .button:hover {
-	background-color: #FEFEFE;
-	color: #C4C4C4;
-	cursor: pointer;
+    background-color: #FEFEFE;
+    color: #C4C4C4;
+    cursor: pointer;
+    font-family: Inter-ExtraLight;
 }
 .copyright {
     text-align: center;
@@ -275,6 +289,7 @@ footer .footer_column p {
     font-weight: lighter;
     letter-spacing: 2px;
     border-top-width: 2px;
+    font-family: Inter-ExtraLight;
 }
 .footer_banner {
     background-color: #434052;
@@ -478,7 +493,7 @@ nav ul li {
 }
 
 /* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
+@media (min-width: 700px) and (max-width: 1096px) {
 .text_column {
 	width: 100%;
 }
@@ -555,10 +570,6 @@ nav ul li {
 
 .button1 {
     width: 150px;
-    margin-top: 40px;
-    margin-right: 20px;
-    margin-bottom: auto;
-    margin-left: 20px;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -572,12 +583,148 @@ nav ul li {
     transition: all 0.3s linear;
     background-color: #D3D9EB;
     display: inline-block;
+    font-family: Inter-ExtraLight;
 }
 .button1:hover {
-	background-color: #FEFEFE;
-	color: #C4C4C4;
-	cursor: pointer;
+    background-color: #FEFEFE;
+    color: #C4C4C4;
+    cursor: pointer;
+    font-family: Inter-ExtraLight;
 }
+@media (max-width: 700px) {
+  .button1 {
+    display: inline-block;
+  }
+}
+
 .email-button {
     color: #FFFFFF;	
+}
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 25px;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   10px;
+  -moz-column-count:    5;
+  -moz-column-gap:      10px;
+  column-count:         5;
+  column-gap:           10px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+.navbar {
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    color: #FF0004;
+    position: fixed;
+    background-color: #161616;
+    opacity: 0.7;
+	width: 100%;
+
+}
+
+.navbar div.icon {
+  cursor: pointer;
+ 	display: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: #707070;
+    margin: 6px 6px;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.navbar.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.navbar li.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 800px) {
+  .navbar li {
+	  display: none;
+	}
+  .navbar div.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+  .navbar.responsive {position: fixed;}
+  .navbar.responsive div.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
