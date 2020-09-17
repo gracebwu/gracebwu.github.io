@@ -97,12 +97,12 @@ ul li:hover a {
 .hero {
     padding-top: 20%;
     padding-bottom: 20%;
-	background-image: url("../img/8.4.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-origin: padding-box;}
+    background-image: url("../img/8.4.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
 .light {
@@ -110,7 +110,6 @@ ul li:hover a {
 	color: #717070;
 }
 .tagline {
-    position: relative;
     text-align: center;
     color: #FFFFFF;
     margin-top: 4px;
