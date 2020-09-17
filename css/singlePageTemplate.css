@@ -130,7 +130,7 @@ ul li:hover a {
     display: block;
     padding-left: 10%;
     padding-right: 10%;
-    max-padding-bottom: 5%;
+    padding-bottom: 5%;
     color: #FEFEFE;
     font-size: medium;
     font-family: Inter-ExtraLight;
