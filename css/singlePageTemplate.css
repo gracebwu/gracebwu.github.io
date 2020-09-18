@@ -258,7 +258,7 @@ footer .footer_column p {
 .button {
     width: 200px;
     margin-top: 40px;
-    margin-right: auto;
+    margin-right: 10px;
     margin-bottom: auto;
     margin-left: auto;
     padding-top: 20px;
@@ -275,6 +275,7 @@ footer .footer_column p {
     color: #FFFFFF;
     transition: all 0.3s linear;
     font-family: Inter-ExtraLight;
+    display: inline-block;
 }
 .button:hover {
     background-color: #FEFEFE;
@@ -301,6 +302,7 @@ footer .footer_column p {
     margin-bottom: 0px;
     background-image: url(../images/pattern.png);
     background-repeat: repeat;
+    text-align: center;
 }
 footer {
 	display: inline-block;
